@@ -86,6 +86,10 @@ body{
   border-radius: 4px;
   margin-bottom: 12px;
 }
+.primary-button:hover{
+  background-color: var(--Desaturated-Blue);
+  cursor: pointer;
+}
 .curve-bg{
   width: 100%;
 }
@@ -134,11 +138,108 @@ body{
 }
 .avatar-section{
   display: flex;
+  margin-top: 12px;
 }
 .avatar{
   border-radius: 50%;
   margin-right: 12px;
 }
 .testimony p{
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+.footer-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  background-color: var(--Desaturated-Blue);
+  color: var(--Light-Grayish-Blue);
+}
+.footer-top h4{
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+}
+.footer-top p{
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.form input{
+  width: 220px;
+  height: 32px;
+  margin-bottom: 8px;
+  padding-left: 8px;
+}
+.form button{
+  width: 220px;
+  height: 32px;
+  background-color: var(--Bright-Blue);
+  color: var(--Light-Grayish-Blue);
+  border: none;
+  border-radius: 4px;
+}
+.secondary-button:hover{
+  background-color:var(--Desaturated-Blue);
+  cursor: pointer;
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: var(--Very-Dark-Blue);
+  color: var(--Light-Grayish-Blue);
+  font-size: 1.6rem;
+}
+.phone{
+  margin-top: 12px;
+}
+.phone, .mail{
+  display: flex;
+  margin-top: 12px;
+}
+.phone img, .mail img{
+  margin-right: 12px;
+}
+.column-1{
+  margin-bottom: 24px;
+}
+.column-1 img{
+  margin-bottom: 20px;
+}
+.column-2, .column-3{
+  margin: 20px 0;
+}
+.column-2 ul li, .column-3 ul li{
+  list-style: none;
+  margin-bottom: 16px;
+}
+.column-2 ul li a, .column-3 ul li a{
+  text-decoration: none;
+  color: var(--Light-Gray);
+  font-size: 1.6rem;
+}
+.column-2 ul li a:hover, .column-3 ul li a:hover{
+  color: var(--Desaturated-Blue);
+  cursor: pointer;
+}
+.column-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column-4 a svg{
+  width: 25px;
+  margin-right: 10px;
+}
+.icon{
+  fill: var(--Light-Grayish-Blue);
+}
+.icon:hover{
+  fill: var(--Desaturated-Blue);
+  cursor: pointer;
 }
