@@ -1,0 +1,22 @@
+.top-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+.ilustration{
+  order: 2;
+}
+.ilustration img{
+  width: 400px;
+}
+.info{
+  order: 1;
+  width: 50%;
+}
+.input-email{
+  width: 30%;
+}
+.primary-button{
+  width: 20%;
+}
