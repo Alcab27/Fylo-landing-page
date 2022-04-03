@@ -114,6 +114,7 @@ body{
 .info h4{
   font-size: 1.6rem;
   margin-bottom: 20px;
+  color: var(--Very-Dark-Blue);
 }
 .info p{
   text-align:left;
@@ -159,6 +160,9 @@ body{
   padding: 32px;
   background-color: var(--Desaturated-Blue);
   color: var(--Light-Grayish-Blue);
+}
+.info-footer-top{
+  text-align: center;
 }
 .footer-top h4{
   font-size: 1.6rem;

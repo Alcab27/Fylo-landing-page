@@ -8,15 +8,65 @@
   order: 2;
 }
 .ilustration img{
-  width: 400px;
+  width: 450px;
+}
+.info h2{
+  text-align:left;
+  font-size: 2.5rem;
 }
 .info{
   order: 1;
   width: 50%;
 }
+.form-email{
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8px;
+}
 .input-email{
-  width: 30%;
+  width: 60%;
+  margin-right: 12px;
 }
 .primary-button{
-  width: 20%;
+  width: 30%;
+  margin-bottom: 0;
+}
+.bottom-section{
+  flex-direction: row;
+}
+.info{
+  order: 1;
+  align-items: flex-start;
+}
+.info h4{
+  font-size: 2.5rem;
+}
+.ilustration{
+  order: 2;
+}
+.testimony{
+  width: 70%;
+}
+
+.footer-top{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-top h4{
+  font-size: 2.2rem;
+}
+.info-footer-top{
+  text-align: left;
+  width: 50%;
+}
+.footer-top p{
+  text-align: left;
+}
+.form input{
+  width: 310px;
+  margin-bottom: 16px;
+}
+.form button{
+  width: 150px;
+  height: 40px;
 }
