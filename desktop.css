@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   padding: 20px;
+  justify-content: space-between;
 }
 .ilustration{
   order: 2;
@@ -33,6 +34,7 @@
 }
 .bottom-section{
   flex-direction: row;
+  justify-content: space-between;
 }
 .info{
   order: 1;
@@ -43,6 +45,7 @@
 }
 .ilustration{
   order: 2;
+  margin-right: 40px;
 }
 .testimony{
   width: 70%;
@@ -70,3 +73,18 @@
   width: 150px;
   height: 40px;
 }
+.footer-bottom{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.column-1{
+  margin-bottom: 16px;
+}
+.logo-footer{
+  width: 100px;
+  /* margin-bottom: 0; */
+}
+/* .columns{
+  margin-left: 40px;
+} */
